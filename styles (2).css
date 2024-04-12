@@ -1,0 +1,35 @@
+body {
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZarNDR7NeKoYVpsQzK-9YWc3w0VFe6oUbKg&s');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.logo {
+	text-align: center;
+	padding-top: 100px;
+}
+
+.logo img {
+	width: 200px;
+}
+
+.name {
+	color: #fff;
+	font-size: 3em;
+	margin-top: 20px;
+}
+
+.slogan {
+	color: #fff;
+	font-size: 1.5em;
+	margin-top: 10px;
+}
