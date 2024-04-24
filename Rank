@@ -1,0 +1,13 @@
+{% set rank = 1 %}
+                    {% set prev_points = None %}
+                    {% for username, points in top_users %}
+                        {% if prev_points is not none and points != prev_points %}
+                            {% set rank = rank + 1 %}
+                        {% endif %}
+                        {% set prev_points = points %}
+                        <tr class="{% if username == current_user %}current-user{% endif %}">
+                            <td>{{ rank }}</td>
+                            <td>{{ username }}</td>
+                            <td>{{ points }}</td>
+                        </tr>
+                    {% endfor %}
